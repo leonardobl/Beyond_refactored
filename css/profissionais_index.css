@@ -1,9 +1,17 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 /* FontAwesome for working BootSnippet :> */
 
+html, body, #sobre{
+  background-color: #f7f7f7;
+}
+
+#btn_arrow_head i{
+  font-size: 32px;
+}
+
 
 #team {
-  background: #f1f1f160 !important;
+  background: #f7f7f7;
 } 
 
 
@@ -20,7 +28,8 @@
 }
 .btn-primary {
   color: #fff;
-  background-color: #007b5e;
+  /* background-color: #007b5e; */
+  background-color:  #4621AD !important;;
   border-color: #007b5e;
 }
 section {
@@ -28,7 +37,8 @@ section {
 }
 section .section-title {
   text-align: center;
-  color: #007b5e;
+  /* color: #007b5e; */
+  color: #4621AD;
   margin-bottom: 50px;
   text-transform: uppercase;
 }
@@ -108,14 +118,30 @@ section .section-title {
 }
 .backside .card a {
   font-size: 18px;
-  color: #007b5e !important;
+  color: #4621AD !important;
+  /* color: #007b5e !important; */
 }
 .frontside .card .card-title,
 .backside .card .card-title {
-  color: #007b5e !important;
+  color: #4621AD !important;
+  /* color: #007b5e !important; */
 }
 .frontside .card .card-body img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
+}
+
+
+/* Customizações */
+
+.btn_veja_mais{
+  border: 1px solid #4621AD;
+  border-radius: 25px;
+  padding: 10px 25px;
+  color: #4621AD;
+}
+
+.btn_veja_mais:hover{
+  border-color: #47A4AD;
 }
